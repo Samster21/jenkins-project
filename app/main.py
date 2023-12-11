@@ -1,3 +1,3 @@
 from art import *
 
-tprint("Success")
+tprint("Success\nfor\nHuman\nkind")
