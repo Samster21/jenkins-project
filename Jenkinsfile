@@ -4,9 +4,6 @@ pipeline {
             label 'docker-build-slave'
             }
       }
-    triggers{
-        pollSCM '* * * * *'
-    }
     stages {
         stage('Build') {
             steps {
